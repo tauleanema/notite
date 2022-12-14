@@ -3,7 +3,7 @@ function incarca() {
     document.getElementById('text-marti').value = localStorage.getItem('marti');
     document.getElementById('text-miercuri').value = localStorage.getItem('miercuri');
     document.getElementById('text-joi').value = localStorage.getItem('joi');
-    document.getElementById('text-viner').value = localStorage.getItem('vineri');
+    document.getElementById('text-vineri').value = localStorage.getItem('vineri');
     document.getElementById('text-sambata').value = localStorage.getItem('sambata');
     document.getElementById('text-duminica').value = localStorage.getItem('duminica');
  
