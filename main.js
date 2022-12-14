@@ -7,13 +7,13 @@ function incarca() {
     document.getElementById('text-sambata').value = localStorage.getItem('sambata');
     document.getElementById('text-duminica').value = localStorage.getItem('duminica');
  
-    document.getElementById('text-luni').innertHTML = localStorage.getItem('data-luni');
-    document.getElementById('text-marti').innertHTML = localStorage.getItem('data-marti');
-    document.getElementById('text-miercuri').innertHTML = localStorage.getItem('data-miercuri');
-    document.getElementById('text-joi').innertHTML = localStorage.getItem('data-joi');
-    document.getElementById('text-vineri').innertHTML = localStorage.getItem('data-vineri');
-    document.getElementById('text-sambata').innertHTML = localStorage.getItem('data-sambata');
-    document.getElementById('text-duminica').innertHTML = localStorage.getItem('data-duminica');
+    document.getElementById('data-luni').innertHTML = localStorage.getItem('data-luni');
+    document.getElementById('data-marti').innertHTML = localStorage.getItem('data-marti');
+    document.getElementById('data-miercuri').innertHTML = localStorage.getItem('data-miercuri');
+    document.getElementById('data-joi').innertHTML = localStorage.getItem('data-joi');
+    document.getElementById('data-vineri').innertHTML = localStorage.getItem('data-vineri');
+    document.getElementById('data-sambata').innertHTML = localStorage.getItem('data-sambata');
+    document.getElementById('data-duminica').innertHTML = localStorage.getItem('data-duminica');
 }
 
 function salveaza(zi) {
